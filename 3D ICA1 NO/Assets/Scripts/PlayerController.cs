@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask layerMask;
 
+    public Animator animator;
+
 
     // Update is called once per frame
     void Update()
@@ -25,6 +27,23 @@ public class PlayerController : MonoBehaviour
             {
                 agent.SetDestination(hit.point);
             }
+
+            
+
         }
+        if (agent.hasPath)
+        {
+            if(animator.GetBool("isWalking") != true)
+            {
+                //animator.StopPlayback
+            }
+            animator.SetBool("isWalking", true);
+            //animator.
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
     }
 }
