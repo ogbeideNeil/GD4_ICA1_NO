@@ -9,7 +9,7 @@ public class NoteBookManager : MonoBehaviour
     {
         if (!bookIsUp)
         {
-            transform.LeanMoveY();
+            //transform.LeanMoveY();
         }
     }
 

@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5
   ItemName: Poison Wine
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 67186a55c4b1a9d439d68b5d8174ce20, type: 3}
+  description: There's a faint tint of enchantment magic on this and the rest of
+    the bottles in there.

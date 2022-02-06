@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 2 Real Scroll
   m_EditorClassIdentifier: 
   id: 2
-  ItemName: Reall Scroll
-  icon: {fileID: 0}
+  ItemName: Real Scroll
+  icon: {fileID: 21300000, guid: 83f571422e88b334b978af953b7f063f, type: 3}
+  description: This item was found at the slave keeper's hide out, reports about
+    non-threatening demonkin entering the city.

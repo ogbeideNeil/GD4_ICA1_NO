@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   ItemName: Messy Notes
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: af03239ad91126546b46d56d7184ecdf, type: 3}
+  description: 'The books in her room were thrown about the place, and the guard
+    said seh used to be neat and tidy.
+
+    What could have changed that?'
