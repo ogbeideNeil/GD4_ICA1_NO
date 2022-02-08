@@ -5,8 +5,16 @@ using UnityEngine.UI;
 
 public class inventorySlot : MonoBehaviour
 {
+
+    public static inventorySlot Instance;
+
     public Image icon;
-    Item item;
+    public Item item;
+
+    public void Awake()
+    {
+        Instance = this;
+    }
 
     public void AddItem(Item newItem)
     {
