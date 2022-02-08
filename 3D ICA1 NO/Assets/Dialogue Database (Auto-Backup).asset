@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: 
   version: 
   author: 
@@ -83,6 +83,28 @@ MonoBehaviour:
       value: Nyx
       type: 0
       typeString: 
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 3
+    fields:
+    - title: Name
+      value: Lux
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -3970,8 +3992,8 @@ MonoBehaviour:
 
           On all of these.
 
-          I
-          think it''s enchantment magic. Maybe I could fix the mayor.'
+          Lux
+          should be able to figure this out.'
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -4042,7 +4064,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: I'll make note of this.
+        value: I'll take this for her to look at.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical

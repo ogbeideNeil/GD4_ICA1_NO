@@ -21,10 +21,19 @@ public class ItemPicUp : MonoBehaviour
 
     }
 
-
+    public void pickUpScrolls()
+    {
+        InventoryManager.Instance.Add(allItems[1]);
+        InventoryManager.Instance.Add(allItems[2]);
+    }
     public void pickUpBook()
     {
         InventoryManager.Instance.Add(allItems[3]);
+    }
+
+    public void pickUpWine()
+    {
+        InventoryManager.Instance.Add(allItems[4]);
     }
 
     private void OnMouseDown()

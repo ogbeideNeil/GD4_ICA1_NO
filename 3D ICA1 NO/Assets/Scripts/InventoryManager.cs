@@ -22,7 +22,16 @@ public class InventoryManager : MonoBehaviour
 
     public void Add(Item item)
     {
-        Evidence.Add(item);
+     
+
+            if (!Evidence.Contains(item))
+            {
+                Evidence.Add(item);
+            }
+
+
+
+        
         if(onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
@@ -52,16 +61,6 @@ public class InventoryManager : MonoBehaviour
 
         foreach (var item in Evidence)
         {
-            //GameObject obj = Instantiate(InventoryItem, ItemContent);
-            //var itemName = obj.transform.Find("ItemName").GetComponent<string>();
-            //var itemName = obj.name;
-            //var itemIcon = obj.GetComponent<>
-
-            //itemName = item.ItemName;
-            
-            //var itemIcon = obj.transform.Find("ItemIcon").GetComponent<Image>();
-            //itemIcon.sprite = item.icon;
-            //itemName.m
 
         }
 

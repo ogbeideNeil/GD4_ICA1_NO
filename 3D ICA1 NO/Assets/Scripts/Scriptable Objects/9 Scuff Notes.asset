@@ -15,5 +15,8 @@ MonoBehaviour:
   id: 9
   ItemName: Scuff Notes
   icon: {fileID: 21300000, guid: 83f571422e88b334b978af953b7f063f, type: 3}
-  description: The Scuff marks on the roof make it seem like there was some kind
-    of struggle. Seems like someone fought our victim and pushed him off.
+  description: 'Notes from the roof
+
+    The Scuff marks on the roof make it seem
+    like there was some kind of struggle. Seems like someone fought our victim and
+    pushed him off.'

@@ -15,5 +15,7 @@ MonoBehaviour:
   id: 6
   ItemName: Body Notes
   icon: {fileID: 21300000, guid: 648bebc3598fa9947b0bee4db4cef15e, type: 3}
-  description: The body had it's chest caved in as if struck bluntly in the chest.
-    Did that strike cause the fall?
+  description: 'Notes on the Body
+
+    The body had it''s chest caved in as if struck
+    bluntly in the chest. Did that strike cause the fall?'

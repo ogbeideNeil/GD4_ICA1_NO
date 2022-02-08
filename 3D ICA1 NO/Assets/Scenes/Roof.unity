@@ -2565,7 +2565,7 @@ MonoBehaviour:
       skipPCSubtitleAfterResponseMenu: 0
       subtitleCharsPerSecond: 30
       minSubtitleSeconds: 2
-      continueButton: 0
+      continueButton: 1
       richTextEmphases: 1
       informSequenceStartAndEnd: 0
     cameraSettings:
