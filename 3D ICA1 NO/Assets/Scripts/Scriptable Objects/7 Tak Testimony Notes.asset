@@ -15,4 +15,9 @@ MonoBehaviour:
   id: 7
   ItemName: Tak Testimony
   icon: {fileID: 21300000, guid: 83f571422e88b334b978af953b7f063f, type: 3}
-  description: 
+  description: 'Takeshi''s Testimony
+
+    So after he followed the Inquisitors to
+    their hideout. He made his way to the manor...
+
+    This doen''t bode too well.'

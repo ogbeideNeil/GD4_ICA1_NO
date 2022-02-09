@@ -15,4 +15,8 @@ MonoBehaviour:
   id: 8
   ItemName: Garris Testimony
   icon: {fileID: 21300000, guid: 83f571422e88b334b978af953b7f063f, type: 3}
-  description: 
+  description: 'Head Inquisitor Garris'' Testimony
+
+    I did''nt learn much more
+    about the murder that happened, but he did admit to everything. Is he remourceful
+    or just upset that he got caught.'
