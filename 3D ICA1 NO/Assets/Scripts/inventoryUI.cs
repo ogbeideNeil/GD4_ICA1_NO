@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*https://www.youtube.com/watch?v=YLhj7SfaxSE
+ * line 9-47
+*/
+
 public class inventoryUI : MonoBehaviour
 {
 

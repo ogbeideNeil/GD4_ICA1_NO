@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*https://www.youtube.com/watch?v=YLhj7SfaxSE
+ * line 9-37
+*/
 public class inventorySlot : MonoBehaviour
 {
 
