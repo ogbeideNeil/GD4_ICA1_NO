@@ -17,6 +17,12 @@ public class SceneTransition : MonoBehaviour
         }
     }
 
+    public void backToOffice()
+    {
+        //sceneToLoad = "IndoorUpsatairs";
+        SceneManager.LoadScene("IndoorUpsatairs");
+    }
+
     
 
     //public void ontri

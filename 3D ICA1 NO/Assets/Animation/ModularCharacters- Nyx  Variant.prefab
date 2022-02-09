@@ -1,52 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &311916805
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 311916806}
-  - component: {fileID: 311916807}
-  m_Layer: 7
-  m_Name: InventoryManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &311916806
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311916805}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: -13.313883, y: -0.06666692, z: 5.713333}
-  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6801831289816327202}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &311916807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311916805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61fce544fbf01c348a59b7b9f30789b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Evidence: []
-  ItemContent: {fileID: 0}
-  InventoryItem: {fileID: 0}
 --- !u!1 &6801831289816361574
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +101,6 @@ GameObject:
   - component: {fileID: 699251883}
   - component: {fileID: 699251879}
   - component: {fileID: 699251880}
-  - component: {fileID: 7806736465098516601}
   m_Layer: 7
   m_Name: ModularCharacters- Nyx  Variant
   m_TagString: Untagged
@@ -170,7 +122,6 @@ Transform:
   m_Children:
   - {fileID: 6801831289816324764}
   - {fileID: 6801831289816324960}
-  - {fileID: 311916806}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -313,18 +264,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &7806736465098516601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801831289816363010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 012c174d08513ae458b13680dcd20347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6801831289816363104
 GameObject:
   m_ObjectHideFlags: 0
