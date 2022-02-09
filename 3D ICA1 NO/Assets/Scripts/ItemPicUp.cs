@@ -36,6 +36,11 @@ public class ItemPicUp : MonoBehaviour
         InventoryManager.Instance.Add(allItems[4]);
     }
 
+
+    public void pickUpBody()
+    {
+        InventoryManager.Instance.Add(allItems[5]);
+    }
     private void OnMouseDown()
     {
        // pickUp();
