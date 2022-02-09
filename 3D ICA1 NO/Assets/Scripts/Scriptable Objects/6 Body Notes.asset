@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f105e2e51b619845a4b0b2806b7ab03, type: 3}
+  m_Name: 6 Body Notes
+  m_EditorClassIdentifier: 
+  id: 6
+  ItemName: Body Notes
+  icon: {fileID: 21300000, guid: 648bebc3598fa9947b0bee4db4cef15e, type: 3}
+  description: 'Notes on the Body
+
+    The body had it''s chest caved in as if struck
+    bluntly in the chest. Did that strike cause the fall?'

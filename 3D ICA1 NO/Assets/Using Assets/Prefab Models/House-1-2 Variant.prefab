@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 772320792063294764, guid: 6a14b3c1af5d39f48b93994e82cbe522, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1376053414441310187, guid: 6a14b3c1af5d39f48b93994e82cbe522, type: 3}
       propertyPath: m_Name
-      value: House-1-2
+      value: House-1-2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1752861119578148177, guid: 6a14b3c1af5d39f48b93994e82cbe522, type: 3}
       propertyPath: m_RootOrder

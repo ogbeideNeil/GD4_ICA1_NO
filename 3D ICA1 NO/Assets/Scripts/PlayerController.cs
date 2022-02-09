@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
 
     public NavMeshAgent agent;
 
+    public LayerMask layerMask;
+
+    public Animator animator;
+
+
     // Update is called once per frame
     void Update()
     {
@@ -16,10 +21,29 @@ public class PlayerController : MonoBehaviour
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit))
+            
+
+            if (Physics.Raycast(ray,  out hit, float.MaxValue, layerMask))
             {
                 agent.SetDestination(hit.point);
             }
+
+            
+
         }
+        if (agent.hasPath)
+        {
+            if(animator.GetBool("isWalking") != true)
+            {
+                //animator.StopPlayback
+            }
+            animator.SetBool("isWalking", true);
+            //animator.
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
     }
 }
